@@ -128,7 +128,7 @@ msg.add_attachment(file_data, maintype = 'image', subtype = file_type, filename 
         
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
     
-    smtp.login('mengnan188@gmail.com', 'zmn1995228')
+    smtp.login('mengnan188@gmail.com', 'password')
 
     smtp.send_message(msg)        
         
